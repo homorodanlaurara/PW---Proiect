@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body bgcolor="#FFF5F8">
+
+    <center>
+        <h1 title="Titlu Principal">Pink Travel</h1>
+<img src="https://www.istockphoto.com/photos/madagascar-island" alt="Vedere Insula" width="150" height="150" title="Insula Noastra">
+    </center>
+
+    <div align="center">
+        <p>Vă oferim <b>vacanțe de vis.</p>
+    </div>
+
+    <hr>
+
+    <h2>Destinații Populare</h2>
+    <table border="1" width="80%" bgcolor="#FFF0F5" align="center">
+        <tr>
+            <th colspan="2">Oferte</th>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><strong>Europa</strong></td>
+            <td>Paris, Dublin, Barcelona</td>
+        </tr>
+        <tr>
+            <td align="left" valign="top"><strong>Exotic</strong></td>
+            <td>Sardinia, Madagascar, Bora Bora</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <div>
+        <h3>De ce să ne alegi pe noi?</h3>
+        <ul>
+            <li>Prețuri <span>accesibile</span>.</li>
+            <li>Suport 24/7.</li>
+        </ul>
+
+        <h4>Pașii pentru rezervare:</h4>
+        <ol start="1">
+            <li>Alegeți destinația.</li>
+            <li>Completați formularul.</li>
+        </ol>
+    </div>
+
+    <table border="2" width="100%" bgcolor="#FFF0F5" align="center">
+        <tr>
+            <th>Formular Rezervare</th>
+        </tr>
+        <tr>
+            <td>
+                <form name="rezervare_agentie">
+                    <fieldset>
+                        <legend>Date Personale</legend>
+                        <p>
+                            Nume utilizator: 
+                            <input type="text" name="user" readonly size="20">
+                            <br><br>
+                            Parolă: 
+                            <input type="password" name="pass" maxlength="12">
+                        </p>
+
+                        <p>
+                            Număr persoane (max 10): 
+                            <input type="number" name="persoane" max="10" step="1" value="1">
+                        </p>
+
+                        <p>
+                            Selectați destinația:<br>
+                            <select name="orase" multiple>
+                                <option value="p" selected>Paris</option>
+                                <option value="m">Maldive</option>
+                            </select>
+                        </p>
+
+                        <p>
+                            Tip transport: 
+                            <input type="radio" name="tr" value="av" checked> Avion
+                            <input type="radio" name="tr" value="au" disabled> Autocar
+                        </p>
+
+                        <p>
+                            Detalii suplimentare:<br>
+                            <textarea name="text" rows="5" cols="45">Doresc o cameră cu vedere la mare...</textarea>
+                        </p>
+
+                        <input type="submit" value="Trimite">
+                    </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+    <p>
+        Vizitați <a href="https://google.com" target="_blank">site-ul partener</a>.
+    </p>
+
+    <h6>Am ales acest proiect deoarece îmi plac călătoriile.</h6>
+
+</body>
+</html>
