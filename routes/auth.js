@@ -26,7 +26,7 @@ router.post('/login', (req, res) => {
         req.session.user = user;
         res.redirect('/travel/protected');
     } else {
-        res.render('login', { error: "Email sau parolă incorectă!" });
+        res.render('login', { error: "Email sau parola incorecta!" });
     }
 });
 
