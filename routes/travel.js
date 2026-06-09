@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-// Vectorul masiv cu toate destinatiile
 const destinatii = [
     { id: 'paris', nume: "Paris", descriere: "Europa / Franta - Orasul Iubirii", zile: 4, nopti: 3, regim: "Mic Dejun", hotel: "Ritz Paris", linkHotel: "https://www.ritzparis.com", pret: "500 EUR", link: "https://www.bloggeratlarge.com/the-best-things-to-do-in-paris/" },
     { id: 'paris', nume: "Paris", descriere: "Europa / Franta - Orasul Iubirii", zile: 4, nopti: 3, regim: "Mic Dejun", hotel: "Ritz Paris", linkHotel: "https://www.ritzparis.com", pret: "500 EUR", link: "https://www.lonelyplanet.com/france/paris" },
