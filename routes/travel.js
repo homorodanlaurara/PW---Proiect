@@ -4,6 +4,7 @@ const router = express.Router();
 // Vectorul masiv cu toate destinatiile
 const destinatii = [
     { id: 'paris', nume: "Paris", descriere: "Europa / Franta - Orasul Iubirii", zile: 4, nopti: 3, regim: "Mic Dejun", hotel: "Ritz Paris", linkHotel: "https://www.ritzparis.com", pret: "500 EUR", link: "https://www.bloggeratlarge.com/the-best-things-to-do-in-paris/" },
+    { id: 'paris', nume: "Paris", descriere: "Europa / Franta - Orasul Iubirii", zile: 4, nopti: 3, regim: "Mic Dejun", hotel: "Ritz Paris", linkHotel: "https://www.ritzparis.com", pret: "500 EUR", link: "https://www.lonelyplanet.com/france/paris" },
     { id: 'maldive', nume: "Maldive", descriere: "Asia - Plaje exotice de vis", zile: 8, nopti: 7, regim: "All Inclusive", hotel: "Soneva Fushi Resort", linkHotel: "https://soneva.com", pret: "1200 EUR", link: "https://www.visitmaldives.com" },
     { id: 'sardinia', nume: "Sardinia", descriere: "Europa / Italia - Marea Mediterana", zile: 6, nopti: 5, regim: "Demipensiune", hotel: "Hotel Romazzino", linkHotel: "https://www.marriott.com", pret: "800 EUR", link: "https://www.sardegnaturismo.it" },
     { id: 'florenta', nume: "Florenta", descriere: "Europa / Italia - Capitala artei", zile: 5, nopti: 4, regim: "Mic Dejun", hotel: "Hotel Savoy", linkHotel: "https://www.roccofortehotels.com", pret: "450 EUR", link: "https://www.visitflorence.com" },
